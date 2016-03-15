@@ -7,6 +7,10 @@ Google's [Accelerated Mobile Pages Project](https://www.ampproject.org/)
 for creating websites that load nearly instantly even on mobile devices with
 slow connections.
 
+## Screenshot
+
+![screenshot](/assets/images/screenshot.png)
+
 ## Why use Google AMP?
 
 There are two reasons to use Google AMP:
