@@ -36,22 +36,25 @@ Facebook platform.
 
 To get a general idea of how this theme performs, let's compare this page
 hosted on Github vs. another static page hosted on Github. We can use 
-https://facebook.github.io/react/ as a comparison page.
+https://facebook.github.io/react/ as a comparison page. I've also included
+https://jekyllrb.com/ as another point of comparison (it's also hosted on
+Github).
 
-Of course our page and https://facebook.github.io/react/ have different 
-layouts. But the main point is that the React page is another typical 
-static site hosted on Github and is well-designed. So it should give us
-a rough idea of how a typical page might perform. I'm not suggesting anything
-is wrong with their page. It's actually pretty fast!
+Of course our page and these other pages have different 
+layouts. But the main point is that they are typical static sites hosted
+on Github and are well-designed. So it should give us a rough idea of how
+other typical pages might perform. I'm not suggesting anything
+is wrong with these other pages. They are actually pretty fast!
 
-If you are on a fast connection, both pages load about the same speed but our 
-page renders the main content much faster:
+If you are on a fast connection, all these pages load about the same speed 
+but our page renders the main content much faster:
 
 #### First page vist with no throttling
 
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
 | https://facebook.github.io/react/                               | 1.7s            | 1.89s  |
+| https://jekyllrb.com/                                           | 500ms           | 909ms  |
 | https://ageitgey.github.io/amplify/2016/03/08/example-post.html | 61ms!           | 1.06s  |
 
 #### Second page visit with no throttling
@@ -59,11 +62,12 @@ page renders the main content much faster:
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
 | https://facebook.github.io/react/                               | 1.08s           | 1.33s  |
+| https://jekyllrb.com/                                           | 212ms           | 486ms  |
 | https://ageitgey.github.io/amplify/2016/03/08/example-post.html | 66ms!           | 1.03s  |
 
 You'll see the main content render much faster because AMP 
 [doesn't allow anything in your page](https://www.ampproject.org/docs/get_started/technical_overview.html) 
-that  would block the page from rendering after the initial HTML loads. This means no external 
+that would block the page from rendering after the initial HTML loads. This means no external 
 css, no custom js, etc.
 
 You can get even faster speeds when your 
@@ -79,6 +83,7 @@ Chrome Dev Tools:
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
 | https://facebook.github.io/react/                               | 28.50s          | 29.39s |
+| https://jekyllrb.com/                                           | 1.75s           | 7.03s  |
 | https://ageitgey.github.io/amplify/2016/03/08/example-post.html | 530ms!          | 5.07s  |
 
 #### Second page visit with "Regular 2G" throttling
@@ -86,11 +91,16 @@ Chrome Dev Tools:
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
 | https://facebook.github.io/react/                               | 2.02s           | 2.55s  |
+| https://jekyllrb.com/                                           | 392ms           | 791ms  |
 | https://ageitgey.github.io/amplify/2016/03/08/example-post.html | 385ms!          | 1.64s  |
 
 Even a horribly slow connection with high latency, the user will still see a page render in 
 half a second. That's great! The difference between 385ms and 28s is the different between
 someone reading your blog is skipping your blog.
+
+But notice that the Jekyll homepage still performs well on the second page load. Google AMP 
+gives you a nice set of rules for making fast pages, but of course it isn't required to make
+a fast page.
 
 ## Getting Started
 
