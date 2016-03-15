@@ -49,7 +49,7 @@ is wrong with these other pages. They are actually pretty fast!
 If you are on a fast connection, all these pages load about the same speed 
 but our page renders the main content much faster:
 
-#### First page vist with no throttling
+#### First page visit with no throttling
 
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
@@ -78,7 +78,7 @@ important on a slow, high-latency mobile connection (i.e. most actual internet u
 Let's try loading the page using the "Regular 2G (250kb/s, 300ms RT)" throttling setting in 
 Chrome Dev Tools:
 
-#### First page vist with "Regular 2G" throttling
+#### First page visit with "Regular 2G" throttling
 
 | Page                                                            | DOMContentReady | Load   |
 | -------------                                                   |:-----------:    | ------:|
