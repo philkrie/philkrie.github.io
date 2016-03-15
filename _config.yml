@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
+title: Amplify Demo Site
 email: your-email@domain.com
 description: >
-  Awesome site description here
+  Look how fast it is
 logo: "/assets/images/logo.jpg"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/amplify" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
