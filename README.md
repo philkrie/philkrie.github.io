@@ -8,7 +8,9 @@ for creating websites that load nearly instantly even on mobile devices with
 slow connections.
 
 Check out a live example of this theme at 
-[http://ageitgey.github.io/amplify/](http://ageitgey.github.io/amplify/2016/03/08/example-post.html).
+[http://ageitgey.github.io/amplify/](http://ageitgey.github.io/amplify/2016/03/08/example-post.html)
+or 
+[via Google's CDN](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html).
 
 ## Screenshot
 
