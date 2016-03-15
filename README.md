@@ -20,7 +20,7 @@ or
 
 There are two reasons to use Google AMP:
 
-First, it's really fast! An often sited claim (by Amazon, Yahoo, Walmart and
+First, it's really fast! An often cited claim (by Amazon, Yahoo, Walmart and
 others) is that every extra 100ms improvement in page load time increases
 incremental revenue by up to 1%. Your personal blog might not be selling
 anything, but why settle for a slow page and risk losing readers?
