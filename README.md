@@ -117,18 +117,21 @@ To use this theme, it's just like using any other Jekyll template:
 *Step 2:* Clone this repo to your computer
 
 ```bash
-git clone <blah>
+git clone git@github.com:ageitgey/amplify.git
 ```
 
-*Step 3:* Tweak `_config.yml`.
+*Step 3:* Run `gem install bundler; bundle install` inside the new `/amplify/` folder that was 
+just created to install the required ruby dependencies.
+
+*Step 4:* Tweak `_config.yml`.
 
 Just fill in everything in the `# Site settings` section.
 You'll want to set your site's title, your name, your twitter username, etc.
 
-*Step 4:* Run `jekyll serve` and then open
+*Step 5:* Run `jekyll serve` and then open
 [http://localhost:4000/](http://localhost:4000/) to see your site!
 
-*Step 5:* Publish your site
+*Step 6:* Publish your site
 [just like any other Jekyll site](https://jekyllrb.com/docs/deployment-methods/).
 
 ## Google AMP Limitations
