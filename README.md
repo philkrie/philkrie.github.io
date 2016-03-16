@@ -170,7 +170,7 @@ The two you are are most likely to need are `<amp-img>` and `<amp-youtube>`:
 ### Youtube Videos in your posts
 
 ```
-<amp-youtube data-videoid="NpEaa2P7qZI" layout="responsive" width="480" height="270"></amp-youtube>
+<amp-youtube data-videoid="lBTCB7yLs8Y" layout="responsive" width="480" height="270"></amp-youtube>
 ```
 
 ### Embedding other types of content
