@@ -507,3 +507,7 @@ pre {
     padding-left: 0;
   }
 }
+
+.pagination .disabled {
+    opacity: 0;
+}
