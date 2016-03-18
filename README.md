@@ -114,6 +114,9 @@ To use this theme, it's just like using any other Jekyll template:
 
 *Step 1:* [Install Jekyll](https://jekyllrb.com/docs/installation/)
 
+*On windows*
+If on windows you will need the ruby devkit available here: [rubyinstaller](http://rubyinstaller.org/).
+
 *Step 2:* Clone this repo to your computer
 
 ```bash
