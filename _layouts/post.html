@@ -13,7 +13,7 @@ layout: default
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="http://twitter.com/share?text={{page.title | cgi_escape}}&amp;url={{site.url}}{{page.id}}" target="_blank">
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via={{ site.twitter_username }}"target="_blank">
           Share on
           {% include icon-twitter.html %}
         </a>
