@@ -101,7 +101,7 @@ Chrome Dev Tools:
 | https://ageitgey.github.io/amplify/2016/03/08/example-post.html | 385ms!          | 1.64s  |
 
 Even a horribly slow connection with high latency, the user will still see a page render in
-half a second. That's great! The difference between 385ms and 28s is the different between
+half a second. That's great! The difference between 385ms and 28s is the difference between
 someone reading your blog is skipping your blog.
 
 But notice that the Jekyll homepage still performs well on the second page load. Google AMP
