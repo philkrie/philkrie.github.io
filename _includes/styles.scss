@@ -286,6 +286,14 @@ body {
       margin-top: 50px;
       margin-bottom: 0px;
     }
+    table {
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align:left;
+    }
     p {
       font-weight: 400;
       font-style: normal;
