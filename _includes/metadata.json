@@ -17,14 +17,14 @@
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
-      "width": 60,
-      "height": 60
+      "width": "60",
+      "height": "60"
     }
   },
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
-    "height": 60,
-    "width": 60
+    "height": "60",
+    "width": "60"
   }
 }
