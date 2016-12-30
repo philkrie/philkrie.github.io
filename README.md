@@ -216,6 +216,18 @@ The attribute 'style' may not appear in tag 'span'
 The attribute 'style' may not appear in tag 'div'
 ```
 
+## Enabling Google Analytics
+
+This theme supports simple [page tracking](https://developers.google.com/analytics/devguides/collection/amp-analytics/#page_tracking) with Google Analytics.
+
+To enable analytics :
+
+1. Set your property ID in `_config.yml`
+2. Uncomment the analytics include in `_layouts/default.html`.
+3. Uncomment the analytics script in `_includes/head.html`.
+
+If you wish to track custom events or want to send custom data, please refer to [the documentation](https://developers.google.com/analytics/devguides/collection/amp-analytics/#event_tracking).
+
 ## Making Google serve your page
 
 Google will cache valid AMP pages if you link to them with one of these urls:
