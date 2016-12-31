@@ -23,6 +23,9 @@ author_image: "/assets/images/author.jpg"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Google Analytics
+analytics_id: ""
+
 # Build settings
 markdown: kramdown
 
