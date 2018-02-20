@@ -6,22 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
-email: your-email@domain.com
-description: >
-  Awesome site description here
-logo: "/assets/images/logo.jpg"
+title: Phillip Kriegel
+email: philkrie@gmail.com
+description: Mobile Specialist @ Google
+logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+url: "http://www.phillipkriegel.com" # the base hostname & protocol for your site
+paginate: 5 # The number of posts to show per page on your homepage
 
-name: 'Your Name'
-bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
+name: 'Phillip Kriegel'
+bio: Super speedy sites
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  philkrie
 
 # Google Analytics
 analytics_id: ""
