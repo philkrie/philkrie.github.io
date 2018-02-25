@@ -11,7 +11,7 @@ email: philkrie@gmail.com
 description: Mobile Specialist @ Google
 logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.phillipkriegel.com" # the base hostname & protocol for your site
+url: "https://www.philkrie.me" # the base hostname & protocol for your site
 paginate: 5 # The number of posts to show per page on your homepage
 
 name: 'Phillip Kriegel'
