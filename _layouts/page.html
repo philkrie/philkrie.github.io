@@ -10,7 +10,57 @@ layout: default
       <a name="topofpage"></a>
       {{content}}
     </section>
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured"><span>Written by</span></h5>
+        <section class="author">
+          <div class="author-image"></div>
+          <h4>{{ site.name }}</h4>
+          <p class="bio">{{site.bio}}</p>
+
+          <p>
+
+          	<span>
+              {% if site.email %}
+                {% include icon-mail.html username=site.email %}
+              {% endif %}
+            </span>
+            <br>
+            <span>
+              {% if site.github_username %}
+                {% include icon-github.html username=site.github_username %}
+              {% endif %}
+            </span>
+            <br>
+            <span>
+              {% if site.linkedin_username %}
+                {% include icon-linkedin.html username=site.linkedin_username %}
+              {% endif %}
+            </span>
+
+            
+
+            <span>
+              {% if site.twitter_username %}
+                {% include icon-twitter.html username=site.twitter_username %}
+              {% endif %}
+            </span>
+          </p>
+          <hr>
+        </section>
+      </div>
+      <div class="isRight">
+        <h5 class="index-headline featured"><span>Supported by</span></h5>
+        <footer class="site-footer">
+          <section class="poweredby">This site uses <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
+          <div class="inner">
+            <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{site.name}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+          </div>
+        </footer>
+      </div>
+    </div>
   </article>
 </main>
 
 {% include footer.html %}
+
