@@ -15,4 +15,4 @@ After school, I went to work for the SAS Institute as an analytics consultant. I
 
 I like to work with the web. I also like to teach. This blog hopefully accomplishes some sort of an intersection as I find a niche for myself.
 
-I do sincerely hope you eventually find something of value on my blog. Please don't hesistate to reach out via email () to discuss or critique.
+I do sincerely hope you eventually find something of value on my blog. Please don't hesistate to reach out via email to discuss or critique.
