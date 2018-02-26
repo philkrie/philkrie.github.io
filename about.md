@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <amp-img width="1024" height="648" layout="responsive" src="/assets/images/about.jpeg"></amp-img>
-<caption>*Sitting on a rock on Mount Shan (Moganshan) outside of Shanghai*</caption>
+<caption>*Sitting on a rock on Mount Mogan (Moganshan) outside of Shanghai*</caption>
 
 Hello! Thank you for taking the time to learn more about me. I am currently a specialist engineer at Google in San Francisco, working on mobile performance. My job is to consult clients on how to make their mobile websites faster. I perform web audits as well as help developers implement their sites using [AMP](https://www.ampproject.org/), like this very site you are on right now! I'm hoping to use this blog to talk about the problems that I run into, and (hopefully) the solutions for those problems. I'll also write about general programming and web development topics that I find cool.
 
