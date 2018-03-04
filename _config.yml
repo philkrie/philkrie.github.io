@@ -21,7 +21,7 @@ github_username:  philkrie
 linkedin_username: philkrie
 
 # Google Analytics
-analytics_id: ""
+analytics_id: "UA-58015925-2"
 
 # Build settings
 markdown: kramdown

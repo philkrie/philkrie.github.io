@@ -1,0 +1,786 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"googl",
+				"googlePlusApp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 963,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/styles.scss",
+			"settings":
+			{
+				"buffer_size": 9730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_syntax-highlighting.scss",
+			"settings":
+			{
+				"buffer_size": 3325,
+				"line_ending": "Unix",
+				"name": "/**"
+			}
+		},
+		{
+			"file": "_posts/2017-02-19-first-post.md",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 2313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/icon-linkedin.html",
+			"settings":
+			{
+				"buffer_size": 179,
+				"line_ending": "Unix",
+				"name": "icon-link"
+			}
+		},
+		{
+			"file": "_includes/icon-mail.svg",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/icon-mail.html",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/icon-linkedin.svg",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.md",
+			"settings":
+			{
+				"buffer_size": 1874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/page.html",
+			"settings":
+			{
+				"buffer_size": 1841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 177 files for \"twitter\"\n\n/Users/philkrie/Documents/amplify/README.md:\n  130  \n  131  Just fill in everything in the `# Site settings` section.\n  132: You'll want to set your site's title, your name, your twitter username, etc.\n  133  \n  134  *Step 5:* Run `bundle exec jekyll serve` and then open\n  ...\n  161  [just like it does normally in Jekyll](https://jekyllrb.com/docs/posts/)\n  162  except when you want to include extra resources likes pictures, videos,\n  163: embedded Twitter posts, etc.\n  164  \n  165  Google AMP has it's own set of special html tags for including content. You\n\n/Users/philkrie/Documents/amplify/_layouts/post.html:\n   14      <footer class=\"post-footer\">\n   15        <section class=\"share\">\n   16:         <a class=\"icon\" href=\"https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}\" target=\"_blank\">\n   17            Share on\n   18:           {% include icon-twitter.html %}\n   19          </a>\n   20        </section>\n\n/Users/philkrie/Documents/amplify/_site/README.md:\n  130  \n  131  Just fill in everything in the `# Site settings` section.\n  132: You'll want to set your site's title, your name, your twitter username, etc.\n  133  \n  134  *Step 5:* Run `bundle exec jekyll serve` and then open\n  ...\n  161  [just like it does normally in Jekyll](https://jekyllrb.com/docs/posts/)\n  162  except when you want to include extra resources likes pictures, videos,\n  163: embedded Twitter posts, etc.\n  164  \n  165  Google AMP has it's own set of special html tags for including content. You\n\n/Users/philkrie/Documents/amplify/_site/2017/02/19/first-post.html:\n  648      <footer class=\"post-footer\">\n  649        <section class=\"share\">\n  650:         <a class=\"icon\" href=\"https://twitter.com/intent/tweet?url=http://localhost:5000/2017/02/19/first-post&text=Beginning&via=\" target=\"_blank\">\n  651            Share on\n  652:           <span class=\"icon icon--twitter\"><svg viewBox=\"0 0 16 16\"><path fill=\"#828282\" d=\"M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z\"/></svg>\n  653: </span><a href=\"https://twitter.com/\"><span class=\"username\"></span></a>\n  654  \n  655          </a>\n\n/Users/philkrie/Documents/amplify/_includes/icon-twitter.html:\n    1: <span class=\"icon icon--twitter\">{% include icon-twitter.svg %}</span><a href=\"https://twitter.com/{{ include.username }}\"><span class=\"username\">{{ include.username }}</span></a>\n    2  \n\n13 matches across 5 files\n\n\nSearching 176 files for \"twitter\"\n\n/Users/philkrie/Documents/amplify/README.md:\n  130  \n  131  Just fill in everything in the `# Site settings` section.\n  132: You'll want to set your site's title, your name, your twitter username, etc.\n  133  \n  134  *Step 5:* Run `bundle exec jekyll serve` and then open\n  ...\n  161  [just like it does normally in Jekyll](https://jekyllrb.com/docs/posts/)\n  162  except when you want to include extra resources likes pictures, videos,\n  163: embedded Twitter posts, etc.\n  164  \n  165  Google AMP has it's own set of special html tags for including content. You\n\n/Users/philkrie/Documents/amplify/_layouts/post.html:\n   14      <footer class=\"post-footer\">\n   15        <section class=\"share\">\n   16:         <a class=\"icon\" href=\"https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}\" target=\"_blank\">\n   17            Share on\n   18:           {% include icon-twitter.html %}\n   19          </a>\n   20        </section>\n\n/Users/philkrie/Documents/amplify/_site/README.md:\n  130  \n  131  Just fill in everything in the `# Site settings` section.\n  132: You'll want to set your site's title, your name, your twitter username, etc.\n  133  \n  134  *Step 5:* Run `bundle exec jekyll serve` and then open\n  ...\n  161  [just like it does normally in Jekyll](https://jekyllrb.com/docs/posts/)\n  162  except when you want to include extra resources likes pictures, videos,\n  163: embedded Twitter posts, etc.\n  164  \n  165  Google AMP has it's own set of special html tags for including content. You\n\n/Users/philkrie/Documents/amplify/_site/2017/02/19/first-post.html:\n  648      <footer class=\"post-footer\">\n  649        <section class=\"share\">\n  650:         <a class=\"icon\" href=\"https://twitter.com/intent/tweet?url=http://localhost:5000/2017/02/19/first-post&text=Beginning&via=\" target=\"_blank\">\n  651            Share on\n  652:           <span class=\"icon icon--twitter\"><svg viewBox=\"0 0 16 16\"><path fill=\"#828282\" d=\"M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z\"/></svg>\n  653: </span><a href=\"https://twitter.com/\"><span class=\"username\"></span></a>\n  654  \n  655          </a>\n\n10 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 6073,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_includes/icon-github.svg",
+			"settings":
+			{
+				"buffer_size": 814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 2051,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/philkrie/Documents/amplify/_includes/icon-twitter.html",
+		"/Users/philkrie/Documents/amplify/favicon.ico",
+		"/Users/philkrie/Downloads/e5450a507be2027e6aa908fa460045af/favicon.ico",
+		"/Users/philkrie/Documents/amplify/_includes/_tufte.scss",
+		"/Users/philkrie/Documents/philkrie.github.io/amp.html",
+		"/Users/philkrie/Documents/Codelabs/AMP Advanced Concepts/amp-advanced-codelab-files/article.amp.html",
+		"/Users/philkrie/Documents/AMP Exercises/Foundations/accelerated-mobile-pages-foundations/base.css",
+		"/Users/philkrie/Documents/AMP Exercises/Foundations/accelerated-mobile-pages-foundations/article.html",
+		"/Users/philkrie/Documents/AMP Exercises/Foundations/accelerated-mobile-pages-foundations/article.amp.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"twitter",
+			"rel",
+			"amp_image",
+			"gems",
+			"header",
+			"@media",
+			"}",
+			"{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/styles.scss",
+					"settings":
+					{
+						"buffer_size": 9730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_sass/_syntax-highlighting.scss",
+					"settings":
+					{
+						"buffer_size": 3325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/**",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2017-02-19-first-post.md",
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 2313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/icon-linkedin.html",
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"auto_name": "icon-link",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/icon-mail.svg",
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_includes/icon-mail.html",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/icon-linkedin.svg",
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								424
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "about.md",
+					"settings":
+					{
+						"buffer_size": 1874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_layouts/page.html",
+					"settings":
+					{
+						"buffer_size": 1841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1152,
+								1152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"settings":
+					{
+						"buffer_size": 6073,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										214,
+										221
+									],
+									[
+										488,
+										495
+									],
+									[
+										776,
+										783
+									],
+									[
+										878,
+										885
+									],
+									[
+										975,
+										982
+									],
+									[
+										1221,
+										1228
+									],
+									[
+										1495,
+										1502
+									],
+									[
+										1797,
+										1804
+									],
+									[
+										1975,
+										1982
+									],
+									[
+										2802,
+										2809
+									],
+									[
+										2974,
+										2981
+									],
+									[
+										2999,
+										3006
+									],
+									[
+										3037,
+										3044
+									],
+									[
+										3381,
+										3388
+									],
+									[
+										3655,
+										3662
+									],
+									[
+										3943,
+										3950
+									],
+									[
+										4045,
+										4052
+									],
+									[
+										4142,
+										4149
+									],
+									[
+										4388,
+										4395
+									],
+									[
+										4662,
+										4669
+									],
+									[
+										4964,
+										4971
+									],
+									[
+										5142,
+										5149
+									],
+									[
+										5969,
+										5976
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3944,
+								3944
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_includes/icon-github.svg",
+					"settings":
+					{
+						"buffer_size": 814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_includes/head.html",
+					"settings":
+					{
+						"buffer_size": 2051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}
