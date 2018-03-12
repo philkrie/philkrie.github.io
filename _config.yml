@@ -13,6 +13,8 @@ logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.philkrie.me" # the base hostname & protocol for your site
 paginate: 5 # The number of posts to show per page on your homepage
+keywords: "AMP, Google, Mobile, Specialist, Engineer, Phillip, Kriegel, philkrie, Home, Blog, mobile speed, speed, fast websites, PWA, responsive"
+
 
 name: 'Phillip Kriegel'
 bio: Super speedy sites

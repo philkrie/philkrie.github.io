@@ -2,6 +2,8 @@
 layout: page
 title: About Me
 permalink: /about/
+excerpt: Hello! Thank you for taking the time to learn more about me. I am currently a specialist engineer at Google in San Francisco, working on mobile performance.
+keywords: AMP, Google, Mobile, Specialist, Engineer, Phillip, Kriegel, philkrie, Oregon, ONRG, About, Blog
 ---
 
 <amp-img width="1024" height="648" layout="responsive" src="/assets/images/about.jpeg"></amp-img>
