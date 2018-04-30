@@ -155,7 +155,7 @@ body {
       color: #666665;
     }
     .post-meta {
-      font-size: 14px;
+      font-size: 16px;
       color: #b3b3b1;
       line-height: 30px;
       a {
@@ -188,7 +188,7 @@ body {
 .pagination {
   text-align: center;
   padding: $rs * 1 0 0;
-  font-size: $rs / 4 * 3;
+  font-size: $rs;
   a {
     color: #999999;
     text-decoration: none;
@@ -203,7 +203,7 @@ body {
   padding: $rs * 3 0;
   width: 100%;
   max-width: 700px;
-  font-size: $rs / 4 * 3;
+  font-size: $rs;
   text-align: center;
   color: #999999;
   line-height: $rs * 1.1;
