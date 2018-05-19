@@ -3,12 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    amp-jekyll (1.0.2)
-      fastimage (>= 1.8.0)
-      jekyll (~> 3.0)
-      nokogiri (>= 1.6.0)
     colorator (1.1.0)
-    fastimage (2.1.1)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     jekyll (3.3.1)
@@ -35,9 +30,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
@@ -52,10 +44,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  amp-jekyll
   jekyll
   jekyll-compose
   jekyll-paginate
 
 BUNDLED WITH
-   1.16.1
+   1.16.2

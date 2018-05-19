@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="assets/owl-carousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/owl-carousel/assets/owl.theme.default.min.css">
+<div class="owl-carousel owl-theme">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+    <img class="owl-lazy" data-src="http://lorempixel.com/350/250/" style="width:250px; margin:0 auto" alt="">
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items:1,
+            lazyLoad:true,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:5000,
+            center: true,
+            autoHeight: true
+        });
+    });
+</script>
