@@ -2,6 +2,7 @@
 layout: post
 title: "Deferring Images in Auto-Scrolling Carousels"
 excerpt: Deferring images in auto-scrolling defers only your hopes and dreams
+keywords: carousels, deferring, images, lazy-loading, UX design, UX, mobile, performance
 ---
 
 <amp-img width="1024" height="768" layout="responsive" src="/assets/posts/deferred-carousels/playground-carousel.jpg"></amp-img>
@@ -47,8 +48,8 @@ The chart below contains the results.
 
 As you can see, the results are pretty stark. Document complete time for the lazy loaded carousels is lower than their non-deferred counterparts: this makes sense as the initial load only has to bring in one image, instead of several. However, perhaps unsurprisingly, the auto lazy carousel takes almost 30 seconds to become visually complete according to WebPagetest. Before the page can "settle" and be complete visually, the page changes.
 
-In light of the upcoming update to the Google algorithm that designates mobile speed as a [ranking factor](https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html), it would be best to ensure that your site load isn't artificially lengthened by preventing your page from coming to a visual resting point.
+In light of the upcoming update to Google Search that designates mobile speed as a [ranking factor](https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html), it would be best to ensure that your site load isn't artificially lengthened by preventing your page from coming to a visual resting point. If you can't remove your carousel, then at the very least do this.
 
-The bottomline is this: things are only lazy loaded if the user initiates the load. If the image is going to get loaded eventually, regardless of user input, then you haven't deferred it. You've simply increased the amount of time your page takes to fully load.
+Here is the bottom line: things are only lazy loaded if the user initiates the load. If the image is going to get loaded eventually, regardless of user input, then you haven't deferred it. You've simply increased the amount of time your page takes to fully load.
 
-
+Perhaps its obvious to some, but I've seen it enough that hopefully this helps someone.
