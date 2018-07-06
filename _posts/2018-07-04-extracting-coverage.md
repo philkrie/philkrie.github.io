@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Puppeteer to Extract Code Coverage Data from Chrome Dev Tools"
-excerpt: The Chrome Coverage tool shows your untouched code, but you want to download the useful stuff
+excerpt: The Chrome Coverage tool shows your untouched code, but you want to download the good stuff
 keywords: Chrome, chromium, puppeteer, performance, code, coverage, minification, unused, CSS, JS, HTML
 ---
 
