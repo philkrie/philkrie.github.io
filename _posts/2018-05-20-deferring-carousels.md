@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Deferring Images in Auto-Scrolling Carousels"
-excerpt: Deferring images in auto-scrolling defers only your hopes and dreams
+excerpt: Deferring images in auto-scrolling carousels defers only your hopes and dreams
 keywords: carousels, deferring, images, lazy-loading, UX design, UX, mobile, performance
 ---
 
 <amp-img width="1024" height="768" layout="responsive" src="/assets/posts/deferred-carousels/playground-carousel.jpg"></amp-img>
-<caption>*The only carousel that I have any fond memories of*</caption>
+<caption>*I have fond memories of this kind of carousel. Others, not so much*</caption>
 
 #### TL;DR: Things are only lazy loaded if the user initiates the load. If the image is going to get loaded eventually, regardless of user input, then you haven't deferred it. You've simply increased your page load.
 
@@ -24,7 +24,7 @@ Something that I do notice on many sites that I review are lazy loaded images in
 
 However, sometimes these deferred images are present on auto-scrolling carousels. Applying said "optimization" in this case can be a grave mistake: it only increases your page load and time to visual completeness, as measured by tools such as [WebPagetest](http://webpagetest.org/) and [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
 
-[But you don't have to take my word for it](https://i0.wp.com/badbooksgoodtimes.com/wp-content/uploads/2017/02/but-you-dont-have-to-take-my-word-for-it.gif). Here are four sample carousels that I whipped up that go through four scenarios: [manual carousel](https://www.philkrie.me/carousel.html), [auto-scrolling carousel](https://www.philkrie.me/auto-carousel.html), [manual carousel with lazy loading]((https://www.philkrie.me/carousel-lazy.html)), and [auto-scrolling carousel with lazy loading](https://www.philkrie.me/auto-carousel-lazy.html). The auto-scrolling carousels change images every 3 seconds.
+[But you don't have to take my word for it](https://i0.wp.com/badbooksgoodtimes.com/wp-content/uploads/2017/02/but-you-dont-have-to-take-my-word-for-it.gif). Here are four sample carousels that I whipped up that go through four scenarios: [manual carousel](https://www.philkrie.me/carousel.html), [auto-scrolling carousel](https://www.philkrie.me/auto-carousel.html), [manual carousel with lazy loading](https://www.philkrie.me/carousel-lazy.html), and [auto-scrolling carousel with lazy loading](https://www.philkrie.me/auto-carousel-lazy.html). The auto-scrolling carousels change images every 3 seconds.
 
 Each of these sites were tested on WebPagetest on a slow 3G connection (400 Kbps/400ms RTT). The waterfalls are shown below.
 
