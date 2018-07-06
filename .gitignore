@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 .DS_Store
 personal_AMP_site.sublime-workspace
+exported_css.css
