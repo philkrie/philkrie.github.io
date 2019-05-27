@@ -105,7 +105,7 @@ const iPhone = devices['iPhone 6'];
     let css_used_bytes = 0;
     let css_total_bytes = 0;
     let covered_css = "";
-    for (const entry of css_coverage) {
+    for (const entry of css_coverage[0]) {
         css_total_bytes += entry.text.length;
         console.log(`Total Bytes for ${entry.url}: ${entry.text.length}`);
         for (const range of entry.ranges){
