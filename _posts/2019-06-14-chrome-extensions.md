@@ -16,41 +16,41 @@ This is adapted from a presentation I gave at work on the topic.
 
 ## Chrome Extension Capabilities
 
-To say that Chrome Extensions give you incredible power over the browsing experience is not an overstatement. Chrome Extensions can manipulate anything within a webpage, query information, run tasks in the background, or even modify the behavior of the Chrome browser's UI. You can modify the Chrome omnibox, generate and download files, make requests to external services, add UI elements and functionality to specific websites, save information and state between page navigation, and much more. It's pretty impressive.
+To say that Chrome Extensions give you incredible power over the browsing experience is not an overstatement. Chrome Extensions can manipulate anything within a webpage, query information, run tasks in the background, or even modify the behavior of the Chrome browser's UI. You can modify if the Chrome omnibox, generate and download files, make requests to external services, add UI elements and functionality to specific websites, save information and state between page navigation, and much more. It's pretty impressive.
 
 <amp-img width="301" height="237" layout="responsive" src="/assets/posts/chrome-extensions/thanos.png"></amp-img>
-<caption>*A Chrome Instance realizing that it can do whatever it wants*</caption>
+<caption>*A Chrome Extension realizing that it can do whatever it wants*</caption>
 
 Here is a list of the things a Chrome Extension can do
 
 ### Input
 
-* Direct user input
-* Remote server calls
-* Reading the DOM
-* Intercepting requests
-* Chrome DevTools
-* Browser storage
+Direct user input
+Remote server calls
+Reading the DOM
+Intercepting requests
+Chrome DevTools
+Browser storage
 
 ### Output
 
-* Anything in G Suite (Apps Script)
-* New tab
-* Modification of existing web page
-* Download a file
+Anything in G Suite (Apps Script)
+New tab
+Modification of existing web page
+Download a file
 
 ### Invocation
 
-* Page load/background
-* User Interaction
-* External request (notifications)
+Page load/background
+User Interaction
+External request (notifications)
 
 ### Actions/Execution
 
-* Manipulate the DOM/web page
-* Communicate w/ External Services
-* Perform calculations
-* Store/read data
+Manipulate the DOM/web page
+Communicate w/ External Services
+Perform calculations
+Store/read data
 
 and more...
 
