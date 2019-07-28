@@ -17,7 +17,7 @@ With signed exchanges you can give **everything** to the CDN, without having to 
 
 For example, the Google AMP Project has long been criticized because of the way it serves pages from the Google AMP Cache in Google Search. In order to achieve the fastest speed possible, the Google AMP Cache serves the AMP page that you create on your behalf. As a result, it is served with a cache URL. The benefits are immediate: AMP pages served from the AMP cache load almost instantly. However, the downsides quickly become apparent as well: the page appears in an "AMP Viewer" that shows the URL of the publisher, while the browser shows that the user is still on google.com.
 
-<amp-img width="320" height="312" layout="responsive" src="/assets/posts/chrome-extensions/amp.png"></amp-img>
+<amp-img width="320" height="312" layout="responsive" src="/assets/posts/signed-exchanges/amp.png"></amp-img>
 
 <caption>*As you can see, we are viewing an SFGate page, but the small sfgate.com header is hardly enough to distract us from 'google.com'*</caption>
 
