@@ -4,8 +4,16 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
+    concurrent-ruby (1.1.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
+    http_parser.rb (0.6.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jekyll (3.6.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -52,10 +60,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
-  jekyll (>= 3.6.3)
+  jekyll
   jekyll-compose
   jekyll-paginate
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
